@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section.container {
+    display: flex;
+    align-items: center;
+    font-family: 'M PLUS 1', Courier, monospace;
+}
+
+div {
+    margin: 5rem;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid rgb(102, 101, 101);
+}
+
+div.container-list {
+    overflow: auto;
+}
+
+div.container-list > ul {
+    font-size: 17pt;
+}
+
+input[type="text"] {
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 14pt;
+    border: 3px solid gray;
+}
+
+section.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;;
+}
+
+button {
+    width: 25%;
+    margin: 24px;
+    border: none;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    font-size: 14pt;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+}
+
+button.button-add {
+    background-color: rgb(26, 26, 247);
+}
+
+button.button-add:hover {
+    background-color: rgb(61, 61, 250);
+}
+
+button.button-empty {
+    background-color: rgb(214, 35, 35);
+}
+
+button.button-empty:hover {
+    background-color: rgb(237, 73, 73);
+}
